@@ -57,7 +57,7 @@ def erster_weihnachtsfeiertag(year):
 	return date(year, 12, 25)
 
 def zweiter_weihnachtsfeiertag(year):
-	return date(year, 12, 25)
+	return date(year, 12, 26)
 
 def silvester(year):
 	return date(year, 12, 31)
