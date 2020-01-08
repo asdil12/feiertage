@@ -27,7 +27,7 @@ def ostersonntag(year):
 	return date(year, month, day)
 
 def karfreitag(year):
-	return ostersonntag(year) - timedelta(days=1)
+	return ostersonntag(year) - timedelta(days=2)
 
 def ostermontag(year):
 	return ostersonntag(year) + timedelta(days=1)
